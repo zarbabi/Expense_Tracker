@@ -19,7 +19,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 350px;
   background-color: #fff;
   padding: 10px;
   border-radius: 5px;
@@ -30,4 +30,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.expenseBox {
+  display: flex;
+  flex-direction: column;
+  width: 135px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 60px;
+  align-items: flex-start;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+
+.expenseBox span {
+  font-weight: bold;
+  color: green;
 }
