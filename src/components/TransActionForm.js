@@ -30,23 +30,25 @@ const TransActionForm = ({ addTransactions }) => {
         onChange={changeHandler}
         value={formValues.amount}
       />
-      <div>
+      <div className="radioBox">
         <input
           type="radio"
           value="expense"
           name="type"
           onChange={changeHandler}
           checked={formValues.type === "expense"}
+          id="expense"
         />
-        <label>Expense</label>
+        <label htmlFor="expense">Expense</label>
         <input
           type="radio"
           value="income"
           name="type"
           onChange={changeHandler}
           checked={formValues.type === "income"}
+          id="income"
         />
-        <label>Income</label>
+        <label htmlFor="income">Income</label>
       </div>
       <button type="submit" className="btn primary">
         Add Transaction
