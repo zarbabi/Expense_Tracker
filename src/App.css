@@ -112,3 +112,12 @@ input[type="radio"] {
   justify-content: space-between;
   border-right: 4px solid green;
 }
+
+input.search {
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #efefef;
+  width: 92%;
+  margin: 20px 0px;
+}
